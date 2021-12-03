@@ -2,6 +2,7 @@ import styles from './App.module.css';
 
 import Navbar from "./components/nav/Navbar";
 import Header from "./components/header/Header";
+import PortfolioDesc from './components/main/desc/PortfolioDesc';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar />
       <div className={styles.body}>
         <Header />
-        <div>Description</div>
+        <PortfolioDesc />
         <div>List of Projects</div>
         <div>Contact Me</div>
         <div>Footer</div>
