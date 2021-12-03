@@ -9,6 +9,7 @@ nav {
     background-color: #333333;
     color: #eee;
     padding: 1rem 0;
+    z-index: 10;
 }
 
 nav a {
