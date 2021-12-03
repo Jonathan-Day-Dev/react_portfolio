@@ -2,7 +2,7 @@ import styles from './Project.module.css';
 
 const Project = props => {
     return (
-        <div>
+        <div className={styles.project}>
             {props.projectName}
         </div>
     )

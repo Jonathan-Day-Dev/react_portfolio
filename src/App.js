@@ -4,6 +4,7 @@ import Navbar from "./components/nav/Navbar";
 import Header from "./components/header/Header";
 import PortfolioDesc from './components/main/desc/PortfolioDesc';
 import ProjectList from './components/main/projects/ProjectList';
+import ContactForm from './components/contact/ContactForm';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Header />
         <PortfolioDesc />
         <ProjectList projects={projectList}/>
-        <div>Contact Me</div>
+        <ContactForm />
         <div>Footer</div>
       </div>
     </div>
