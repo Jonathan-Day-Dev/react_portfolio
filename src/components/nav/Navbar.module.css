@@ -1,0 +1,22 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #333333;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
